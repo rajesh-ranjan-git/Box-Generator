@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.noOfBoxes, .actionBtn, .colorSelector, .boxShape, .reset {
+    margin: 2vh;
+    padding: 1vh;
+    width: 30vh;
+    height: 5vh;
+    border: 1px solid lightcoral;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: navajowhite;
+}
+
+.noOfBoxes::placeholder {
+    color: lightgray;
+}
+
+.noOfBoxes {
+    border-color: lightcoral;
+}
+
+.actionBtn, .reset {
+    border: none;
+    background-color: salmon;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.content {
+    min-height: 87vh;
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 2vh;
+    width: 10vh;
+    height: 10vh;
+}
